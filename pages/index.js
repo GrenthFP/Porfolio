@@ -88,7 +88,7 @@ export default function IndexPage() {
             </div>
           </div>
           <img
-            src="Site.png"
+            src="https://i.imgur.com/kYdd2QW.png"
             className="w-full mt-8 rounded-md xl:mt-0 xl:w-1/2 xl:ml-8 "
           ></img>
         </div>
@@ -124,7 +124,7 @@ export default function IndexPage() {
             </div>
           </div>
           <img
-            src="Site2.png"
+            src="https://i.imgur.com/srwb1Mb.png"
             className="w-full mt-8 rounded-md xl:mt-0 xl:w-1/2 xl:ml-8 "
           ></img>
         </div>
