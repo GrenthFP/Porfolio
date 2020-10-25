@@ -129,6 +129,33 @@ export default function IndexPage() {
           ></img>
         </div>
       </div>
+      <div className="flex flex-col mx-8 mt-8 bg-white rounded-lg shadow-2xl lg:mx-24">
+        <span className="mt-4 ml-auto mr-auto text-3xl ">API+App</span>
+        <div className="flex flex-col w-full p-8 xl:flex-row">
+          <div className="flex flex-col ">
+            <span className="text-2xl">
+              A simple REST API backend using NodeJS. Its job is to take request fron the frontend I created and return the correct data for the user. It is not yet using any tokens,
+              thus it is only reliant on usernames. The frontend is also unfinished as I am still working on the design itself, however the API is perfectly functional.
+              The API is hosted on Heroku and is using MongoDB for its data. Data can be sent, received, deleted or altered through the frontend. The frontend is again running NextJS and Tailwind.
+            </span>
+            <div className="flex flex-row mt-4 ml-auto mr-auto space-x-8">
+              <a
+                href="https://github.com/GrenthFP/gatchaWithBackend"
+                className="px-4 py-2 mt-4 font-bold text-white transition duration-300 bg-green-500 rounded-md hover:bg-green-700"
+              >
+                View Frontend Code
+              </a>
+              <a
+                href="https://github.com/GrenthFP/MyAPI"
+                className="px-4 py-2 mt-4 font-bold text-white transition duration-300 bg-blue-500 rounded-md hover:bg-blue-700"
+              >
+                View Backend Code
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
   );
 }
